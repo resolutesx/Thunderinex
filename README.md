@@ -1,4 +1,5 @@
-# Thunderinex — Help Guide
+# <img src="https://github.com/user-attachments/assets/cf522cbd-b589-4d3b-b683-7f9573c09efb" alt="logo" width="24"/> Thunderinex — Help Guide
+![Thunderinex Banner](https://github.com/user-attachments/assets/6e808635-0ea9-40be-8202-b458cd72e00c)
 
 Thunderinex is a lightweight utility that simplifies installing **BepInEx** mods from **Thunderstore Mod Manager** to pirated games.  
 Designed for fast, straightforward use.
