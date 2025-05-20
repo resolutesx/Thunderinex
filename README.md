@@ -6,6 +6,7 @@
 Its very lightweight and designed for quick usage.
 
 **Current Version** 1.1
+
 ---
 
 ## Requiremenets
