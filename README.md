@@ -1,56 +1,70 @@
-## Thunderinex Help
+# Thunderinex — Help Guide
 
-### Overview
+Thunderinex is a lightweight utility that simplifies installing **BepInEx** mods from **Thunderstore Mod Manager** to pirated games.  
+Designed for fast, straightforward use.
 
-**Thunderinex** helps you install **BepInEx** mods from **Thunderstore Mod Manager** to your pirated games.
-Its very lightweight and designed for quick usage.
-
-**Current Version** 1.1
+**Version:** 1.1
 
 ---
 
-## Requiremenets
+## Requirements
 
-- Python 3.6+
-
-## Installing Thunderinex
-
-1. Download the python file and run it, it should install all the libraries on its own
-   
-## Installing BepInEx from Thunderinex
-
-1. Select **Install BepInEx** from the main menu.
-2. Enter the game name – fuzzy matching will find the closest match.
-3. Select the game’s executable (`.exe`) file.
-4. BepInEx will be copied and installed.
-
-**Notes:**
-- Before installing or reinstalling, make sure you've installed/removed all desired mods using the Thunderstore Mod Manager.
-- To delete BepInEx, go into the game's directory and delete the BepInEx folder.
-- To reinstall BepInEx, either install it again or use the **Re-install** option under "Recent Games".
-
-### Using Recent Games
-
-- Select **View Recent Games** to see recently modded games.
-- You can quickly reinstall BepInEx for these games.
-
-### Adding Custom Paths
-
-If your Thunderstore Mod Manager is in a non-standard location:
-
-1. Go to **Settings**.
-2. Select **Add custom Thunderstore path**.
-3. Enter the path to the DataFolder.
+- Python 3.6 or higher
 
 ---
 
-### Troubleshooting
+## Installation
 
-- ⚠️ **BepInEx folder not found**: Make sure you've installed mods with BepInEx for your game using Thunderstore Mod Manager.
-- ⚠️ **Game not found**: Add a custom path in Settings if your Thunderstore installation is in a non-standard location.
-- ⚠️ **Access is denied**: Run the Python file with administrative permissions.
-- ⚠️ **Installation failed**: Make sure the game isn't running before installing mods.
+1. Download the `thunderinex.py` file.
+2. Run the file using Python. Required libraries will install automatically.
 
 ---
 
-> *You can modify the code however you want, but please do not claim the entire project as your own. Keep the credits section intact.*
+## Installing BepInEx
+
+1. From the main menu, select **Install BepInEx**.
+2. Enter the game name. Fuzzy matching will find the closest match.
+3. Select the game’s executable (`.exe`).
+4. Thunderinex will install BepInEx automatically.
+
+**Tips:**
+- Ensure mods are installed or removed in Thunderstore Mod Manager *before* installing or reinstalling BepInEx.
+- To remove BepInEx, delete the `BepInEx` folder from the game directory.
+- To reinstall, either install again or use the **Re-install** option under **Recent Games**.
+
+---
+
+## Recent Games
+
+- Select **View Recent Games** to manage previously modded games.
+- Reinstall BepInEx with a single step from this section.
+
+---
+
+## Custom Thunderstore Paths
+
+If Thunderstore Mod Manager is not in its default location:
+
+1. Open **Settings**.
+2. Choose **Add custom Thunderstore path**.
+3. Enter the full path to the `DataFolder`.
+
+---
+
+## Troubleshooting
+
+- **BepInEx folder not found**  
+  Ensure mods were installed using BepInEx via Thunderstore Mod Manager.
+
+- **Game not found**  
+  Add a custom Thunderstore path under Settings.
+
+- **Access is denied**  
+  Run Thunderinex with administrator privileges.
+
+- **Installation failed**  
+  Close the game before attempting installation.
+
+---
+
+> You may modify this project freely. Do not claim the entire project as your own. Please keep the credits section intact.
