@@ -68,4 +68,6 @@ If Thunderstore Mod Manager is not in its default location:
 
 ---
 
+
 > You may modify this project freely. Do not claim the entire project as your own. Please keep the credits section intact.
+> This was made using the help of **Claude Sonnet 3.7**
